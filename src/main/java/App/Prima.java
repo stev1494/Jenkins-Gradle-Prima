@@ -20,9 +20,9 @@ public class Prima {
 		  System.out.println("Ingrese edad del conductor: "); scan.next(); } int edad =
 		  scan.nextInt();
 		  
-		  System.out.println("Ingrese puntos de licencia del coductor: ");
+		  System.out.println("Ingrese puntos de licencia: ");
 		  while(!scan.hasNextInt()) {
-		  System.out.println("¡Ingrese valores numéricos solamente!");
+		  System.out.println("Solo se aceptan valores numéricos");
 		  System.out.println("Ingrese puntos de licencia del coductor: "); scan.next();
 		  } int puntosLicencia = scan.nextInt();
 		  
