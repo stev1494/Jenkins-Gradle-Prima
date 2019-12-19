@@ -47,12 +47,12 @@ public class Prima {
 		int reduccionConductorSeguro = Seguro.safeDriverReduction(driver);
 		
 		if(reduccionConductorSeguro == -1) {
-			System.out.println("¡Sin Puntos de Licencia!");
+			System.out.println("No tiene puntos en la licencia!");
 			return 0;
 		}
 		
 		if(reduccionConductorSeguro == 1) {
-			System.out.println("Puntos de Licencia Inválidos");
+			System.out.println("Puntos inválidos");
 			return 0; 
 		}
 		
