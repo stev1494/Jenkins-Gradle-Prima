@@ -39,7 +39,7 @@ public class Prima {
 		
 		Conductor driver = new Conductor(age, licensePoints);
 		if(driver.getAge() < 18 || driver.getAge() > 90) {
-			System.out.println("Lo sentimos, tu edad no es la indicada.");
+			System.out.println(" Edad incorrecta.");
 			return 0;
 		}
 		
